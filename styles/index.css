@@ -1,0 +1,24 @@
+:root {
+  --primary: rgba(70, 68, 68, 1);
+  --secondary: rgb(0, 178, 248);
+  --white: rgba(255, 255, 255, 1);
+  --black: rgba(0, 0, 0, 1);
+  --fontsizing: "16px";
+  --padsizing: "5px";
+  --shadow: "5px 5px 5px black";
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: var(--black);
+}
+main {
+  background-color: var(--primary);
+  height: 100vh;
+  width: 80vw;
+  margin: 0 auto;
+  box-shadow: var(--shadow);
+}
